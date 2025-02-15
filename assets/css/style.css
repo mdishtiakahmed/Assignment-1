@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* UNIVERSAL STYLE */
-*{
+*{  
     margin: 0;
     padding: 0;
     color: #EEEEEE;
@@ -415,3 +415,2090 @@ form{
     text-align: end;
     margin-top: 92px;
 }
+@media (min-width: 300px) and (max-width: 373px) {
+    .section-1{
+        height: 800px;
+    }
+    /* NAVBAR STYLE */
+    .navbar-css{
+        height:0;
+    }
+    .navbar-brand-css{
+        font-size: 25px;
+    }
+    .nav-item-css{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #EEEEEE;
+        margin: 0 2px;
+    }
+    
+    .heading-1{
+        font-size: 52px;
+        line-height: 52px;
+        margin-top: -50px;
+    }
+    .heading-1-1{
+        font-size: 52px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .s-1-img{
+        width: 250px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+    .mt-117{
+        margin-top: 117px;
+    }
+    .hr-tag{
+        top: 60px;
+    }
+    /* BUTTON GROUP */
+    .button-group{
+        margin-top: 30px;
+    }
+    .button-txt{
+        font-size: 12px;
+        color: #EEEEEE;
+        background: transparent;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    }
+    .button-icon{
+        width: 20px; 
+        height: 20px; 
+        margin: 1px 0 1px 7px;
+    }
+    .button-1{
+        width: 80px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        background: #00ADB5;
+    }
+    .button-2{
+        
+        width: 180px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding: 10px 32px;
+        margin-left: 12px;
+        background: #393E46BF;
+        backdrop-filter: blur(4px)
+    
+    }
+    .button-2-in{
+        display: flex;
+    }
+    
+    /* ARROW DOWN */
+    .arrow-down{
+        width: 60px;
+        height: 60px;
+        background: #393E46BF;
+        backdrop-filter: blur(8px);
+        border: none;
+        margin-top: 120px;
+        margin-left: 10px;
+        z-index: 1;
+    }
+    
+    /* ABOUT SECTION */
+    .about{
+        margin-top: 0;
+    }
+    .about-head{
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 80px;
+
+    }
+    .about-head-span{
+        font-size: 40px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 27px;
+        color: #EEEEEEBF;
+        margin: 0;
+    }
+    .about-image{
+        position: relative;
+        margin-top: 10px;
+    }
+    .doodle-image{
+        width: 100%;
+        height: auto;
+    }
+    .foreground-image{
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        left: 25%;
+    }
+    .hr-tag-1{
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        top: 1600px;
+        border-width: 1px;
+        border: 1px solid #EEEEEE1A;
+        margin: 0;
+    }
+    /* WORK SECTION */
+    .section-work{
+        height: 800px;
+        background-image: url('/assets/image/doodle\ items.png');
+        background-size: 100%;
+    }
+    .work-header{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 60px;
+    }
+    .work-item-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(4px);
+        margin: 10px 0;
+    
+    }
+    .work-item{
+        width: 250px;
+        height: auto;
+        padding: 20px;
+    }
+    .tab-item{
+        width: max-content;
+        height: 25px;
+        gap: 10px;
+        border-radius: 24px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        background: #393E4680;
+        backdrop-filter: blur(8px);
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tav-link{
+        font-size: 12px;
+        line-height: 10px;
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+    .tab-active{
+        background: #00ADB5 !important;
+        margin-left: 0;
+    }
+    
+    /* CONTACT PAGE SECTION */
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-head{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 25px;
+    
+    }
+    .contact-image-div{
+        display: flex;
+        justify-content: end;
+        margin-top: -60px;
+        margin-right: 0;
+    }
+    .contact-image{
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    form{
+        margin-top: 25px;
+    }
+    .name-email{
+        display: flex;
+    }
+    .form-label{
+        font-size: 17px;
+        line-height: 25px;
+    
+    }
+    .from-message{
+        margin-top: 24px;
+    }
+    #name, #email{
+        width: 100%;
+        height: 40px;
+        border-radius: 16px;
+        padding: 16px;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    
+    }
+    #message{
+        width: 100%;
+        height: 190px;
+        gap: 10px;
+        border-radius: 16px;
+        padding: 16px;
+        resize: none;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    }
+    
+    .message-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        height: 47px;
+        gap: 0;
+        border-radius: 24px;
+        padding:10px 35px;
+        margin-top: 24px;
+        background: #00ADB5;
+        border: none;
+    }
+    .message-button p{
+        font-size: 15px;
+        line-height: 27px;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    
+    }
+    .message-button img{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    .col-css a{
+        display: flex;
+        gap: 5px;
+        height: 47px;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .footer-img{
+        width: 18px;
+        height: 18px;
+        margin:auto 0 ;
+    
+    }
+    .footer-txt{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 7px 0;
+    }
+    
+    /* ICON */
+    .row-social-media{
+        display: flex;
+        gap: 24px;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .col-social-media{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        background: #393E46;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;    
+    }
+    .Terms-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color:#EEEEEEBF;
+        opacity: 75%;
+        text-align: end;
+        margin-top: 20px;
+    }
+  }
+@media (min-width: 374px) and (max-width: 426px) {
+    .section-1{
+        height: 800px;
+    }
+    /* NAVBAR STYLE */
+    .navbar-css{
+        height:0;
+    }
+    .navbar-brand-css{
+        font-size: 25px;
+    }
+    .nav-item-css{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #EEEEEE;
+        margin: 0 2px;
+    }
+    
+    .heading-1{
+        font-size: 52px;
+        line-height: 52px;
+        margin-top: -50px;
+    }
+    .heading-1-1{
+        font-size: 52px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .s-1-img{
+        width: 250px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+    .mt-117{
+        margin-top: 117px;
+    }
+    .hr-tag{
+        top: 60px;
+    }
+    /* BUTTON GROUP */
+    .button-group{
+        margin-top: 30px;
+    }
+    .button-txt{
+        font-size: 14px;
+        color: #EEEEEE;
+        background: transparent;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    }
+    .button-icon{
+        width: 20px; 
+        height: 20px; 
+        margin: 1px 0 1px 7px;
+    }
+    .button-1{
+        width: 120px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        background: #00ADB5;
+    }
+    .button-2{
+        
+        width: 190px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding: 10px 32px;
+        margin-left: 12px;
+        background: #393E46BF;
+        backdrop-filter: blur(4px)
+    
+    }
+    .button-2-in{
+        display: flex;
+    }
+    
+    /* ARROW DOWN */
+    .arrow-down{
+        width: 60px;
+        height: 60px;
+        background: #393E46BF;
+        backdrop-filter: blur(8px);
+        border: none;
+        margin-top: 120px;
+        z-index: 1;
+    }
+    
+    /* ABOUT SECTION */
+    .about{
+        margin-top: 0;
+    }
+    .about-head{
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 80px;
+
+    }
+    .about-head-span{
+        font-size: 40px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 27px;
+        color: #EEEEEEBF;
+        margin: 0;
+    }
+    .about-image{
+        position: relative;
+        margin-top: 10px;
+    }
+    .doodle-image{
+        width: 100%;
+        height: auto;
+    }
+    .foreground-image{
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        left: 25%;
+    }
+    .hr-tag-1{
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        top: 1600px;
+        border-width: 1px;
+        border: 1px solid #EEEEEE1A;
+        margin: 0;
+    }
+    /* WORK SECTION */
+    .section-work{
+        height: 800px;
+        background-image: url('/assets/image/doodle\ items.png');
+        background-size: 100%;
+    }
+    .work-header{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 60px;
+    }
+    .work-item-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(4px);
+        margin: 10px 0;
+    
+    }
+    .work-item{
+        width: 250px;
+        height: auto;
+        padding: 20px;
+    }
+    .tab-item{
+        width: max-content;
+        height: 25px;
+        gap: 10px;
+        border-radius: 24px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        background: #393E4680;
+        backdrop-filter: blur(8px);
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tav-link{
+        font-size: 12px;
+        line-height: 10px;
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+    .tab-active{
+        background: #00ADB5 !important;
+        margin-left: 0;
+    }
+    
+    /* CONTACT PAGE SECTION */
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-head{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 25px;
+    
+    }
+    .contact-image-div{
+        display: flex;
+        justify-content: end;
+        margin-top: -60px;
+        margin-right: 100px;
+    }
+    .contact-image{
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    form{
+        margin-top: 25px;
+    }
+    .name-email{
+        display: flex;
+    }
+    .form-label{
+        font-size: 17px;
+        line-height: 25px;
+    
+    }
+    .from-message{
+        margin-top: 24px;
+    }
+    #name, #email{
+        width: 100%;
+        height: 40px;
+        border-radius: 16px;
+        padding: 16px;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    
+    }
+    #message{
+        width: 100%;
+        height: 190px;
+        gap: 10px;
+        border-radius: 16px;
+        padding: 16px;
+        resize: none;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    }
+    
+    .message-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        height: 47px;
+        gap: 0;
+        border-radius: 24px;
+        padding:10px 35px;
+        margin-top: 24px;
+        background: #00ADB5;
+        border: none;
+    }
+    .message-button p{
+        font-size: 15px;
+        line-height: 27px;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    
+    }
+    .message-button img{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    .col-css a{
+        display: flex;
+        gap: 5px;
+        height: 47px;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .footer-img{
+        width: 18px;
+        height: 18px;
+        margin:auto 0 ;
+    
+    }
+    .footer-txt{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 7px 0;
+    }
+    
+    /* ICON */
+    .row-social-media{
+        display: flex;
+        gap: 24px;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .col-social-media{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        background: #393E46;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;    
+    }
+    .Terms-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color:#EEEEEEBF;
+        opacity: 75%;
+        text-align: end;
+        margin-top: 20px;
+    }
+  }
+
+@media (min-width: 427px) and (max-width: 577px) {
+    .section-1{
+        height: 850px;
+    }
+    /* NAVBAR STYLE */
+    .navbar-css{
+        height: 0;
+        padding: 0;
+    }
+    .navbar-brand-css{
+        font-size: 25px;
+    }
+    .nav-item-css{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #EEEEEE;
+        margin: 0 2px;
+    }
+    
+    .heading-1{
+        font-size: 52px;
+        line-height: 52px;
+        margin-top: -50px;
+    }
+    .heading-1-1{
+        font-size: 52px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .s-1-img{
+        width: 250px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: -20px;
+        margin-left: 120px;
+    }
+    .mt-117{
+        margin-top: 117px;
+    }
+    .hr-tag{
+        top: 100px;
+    }
+    /* BUTTON GROUP */
+    .button-group{
+        margin-top: 30px;
+    }
+    .button-txt{
+        font-size: 14px;
+        color: #EEEEEE;
+        background: transparent;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    }
+    .button-icon{
+        width: 20px; 
+        height: 20px; 
+        margin: 1px 0 1px 7px;
+    }
+    .button-1{
+        width: 120px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        background: #00ADB5;
+    }
+    .button-2{
+        
+        width: 190px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding: 10px 32px;
+        margin-left: 12px;
+        background: #393E46BF;
+        backdrop-filter: blur(4px)
+    
+    }
+    .button-2-in{
+        display: flex;
+    }
+    
+    /* ARROW DOWN */
+    .arrow-down{
+        width: 60px;
+        height: 60px;
+        background: #393E46BF;
+        backdrop-filter: blur(8px);
+        border: none;
+        margin-top: 120px;
+        margin-right: 40px;
+        z-index: 1;
+    }
+    
+    /* ABOUT SECTION */
+    .about{
+        margin-top: 0;
+    }
+    .about-head{
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 50px;
+
+    }
+    .about-head-span{
+        font-size: 50px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 27px;
+        color: #EEEEEEBF;
+        margin: 0;
+    }
+    .about-image{
+        position: relative;
+        margin-top: 30px;
+    }
+    .doodle-image{
+        width: 100%;
+        height: auto;
+    }
+    .foreground-image{
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        left: 25%;
+    }
+    .hr-tag-1{
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        top: 1700px;
+        border-width: 1px;
+        border: 1px solid #EEEEEE1A;
+        margin: 0;
+    }
+    /* WORK SECTION */
+    .section-work{
+        height: 850px;
+        background-image: url('/assets/image/doodle\ items.png');
+        background-size: 100%;
+    }
+    .work-header{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 60px;
+    }
+    .work-item-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(4px);
+        margin: 10px 0;
+    
+    }
+    .work-item{
+        width: auto;
+        height: 140px;
+        padding: 20px;
+    }
+    .tab-item{
+        width: max-content;
+        height: 25px;
+        gap: 10px;
+        border-radius: 24px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        background: #393E4680;
+        backdrop-filter: blur(8px);
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tav-link{
+        font-size: 12px;
+        line-height: 10px;
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+    .tab-active{
+        background: #00ADB5 !important;
+        margin-left: 0;
+    }
+    
+    /* CONTACT PAGE SECTION */
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-head{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 25px;
+    
+    }
+    .contact-image-div{
+        display: flex;
+        justify-content: end;
+        margin-top: -10px;
+        margin-right: 100px;
+    }
+    .contact-image{
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    form{
+        margin-top: 25px;
+    }
+    .name-email{
+        display: flex;
+    }
+    .form-label{
+        font-size: 17px;
+        line-height: 25px;
+    
+    }
+    .from-message{
+        margin-top: 24px;
+    }
+    #name, #email{
+        width: 100%;
+        height: 40px;
+        border-radius: 16px;
+        padding: 16px;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    
+    }
+    #message{
+        width: 100%;
+        height: 190px;
+        gap: 10px;
+        border-radius: 16px;
+        padding: 16px;
+        resize: none;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    }
+    
+    .message-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        height: 47px;
+        gap: 0;
+        border-radius: 24px;
+        padding:10px 35px;
+        margin-top: 24px;
+        background: #00ADB5;
+        border: none;
+    }
+    .message-button p{
+        font-size: 15px;
+        line-height: 27px;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    
+    }
+    .message-button img{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    .col-css a{
+        display: flex;
+        gap: 5px;
+        height: 47px;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .footer-img{
+        width: 18px;
+        height: 18px;
+        margin:auto 0 ;
+    
+    }
+    .footer-txt{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 7px 0;
+    }
+    
+    /* ICON */
+    .row-social-media{
+        display: flex;
+        gap: 24px;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .col-social-media{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        background: #393E46;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;    
+    }
+    .Terms-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color:#EEEEEEBF;
+        opacity: 75%;
+        text-align: end;
+        margin-top: 20px;
+    }
+  }
+@media (min-width: 578px) and (max-width: 767px) {
+    .section-1{
+        height: 550px;
+    }
+    /* NAVBAR STYLE */
+    .navbar-brand-css{
+        font-size: 24px;
+    }
+    .nav-item-css{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 17px;
+        color: #EEEEEE;
+        margin: 0 2px;
+    }
+    
+    .heading-1{
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: -50px;
+    }
+    .heading-1-1{
+        font-size: 40px;
+        line-height: 40px;
+        color: #00ADB5;
+    }
+    .s-1-img{
+        width: 210px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+    .mt-117{
+        margin-top: 100px;
+    }
+    .hr-tag{
+        top: 100px;
+    }
+    /* BUTTON GROUP */
+    .button-group{
+        margin-top: 30px;
+    }
+    .button-txt{
+        font-size: 10px;
+        color: #EEEEEE;
+        background: transparent;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    }
+    .button-icon{
+        width: 18px; 
+        height: 18px; 
+        margin: 1px 0 1px 7px;
+    }
+    .button-1{
+        width: 100px;
+        height: 44px;
+        border: none;
+        border-radius: 24px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        background: #00ADB5;
+    }
+    .button-2{
+        
+        width: 165px;
+        height: 44px;
+        border: none;
+        border-radius: 24px;
+        padding: 10px 32px;
+        margin-left: 12px;
+        background: #393E46BF;
+        backdrop-filter: blur(4px)
+    
+    }
+    .button-2-in{
+        display: flex;
+    }
+    
+    /* ARROW DOWN */
+    .arrow-down{
+        width: 60px;
+        height: 60px;
+        background: #393E46BF;
+        backdrop-filter: blur(8px);
+        border: none;
+        margin-top: 120px;
+        margin-right: 200px;
+        z-index: 1;
+    }
+    
+    /* ABOUT SECTION */
+    .about{
+        margin-top: 0;
+    }
+    .about-head{
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 50px;
+
+    }
+    .about-head-span{
+        font-size: 40px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .about-text{
+        font-size: 12px;
+        line-height: 20px;
+        color: #EEEEEEBF;
+        margin: 0;
+    }
+    .about-image{
+        position: relative;
+        margin-top: 30px;
+    }
+    .doodle-image{
+        width: 100%;
+        height: auto;
+    }
+    .foreground-image{
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        left: 25%;
+    }
+    .hr-tag-1{
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        top: 1100px;
+        border-width: 1px;
+        border: 1px solid #EEEEEE1A;
+        margin: 0;
+    }
+    /* WORK SECTION */
+    .section-work{
+        height: 550px;
+        background-image: url('/assets/image/doodle\ items.png');
+        background-size: 100%;
+    }
+    .work-header{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 60px;
+    }
+    .work-item-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(4px);
+        margin: 10px 0;
+    
+    }
+    .work-item{
+        width: auto;
+        height: 140px;
+        padding: 20px;
+    }
+    .tab-item{
+        width: max-content;
+        height: 30px;
+        gap: 10px;
+        border-radius: 24px;
+        padding-top: 0;
+        padding-right: 16px;
+        padding-bottom: 0;
+        padding-left: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(8px);
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tav-link{
+        font-size: 12px;
+        line-height: 10px;
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+    .tab-active{
+        background: #00ADB5 !important;
+        margin-left: 0;
+    }
+    
+    /* CONTACT PAGE SECTION */
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-head{
+        font-size: 35px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 100px;
+    
+    }
+    .contact-image-div{
+        display: flex;
+        justify-content: end;
+        margin-top: 2px;
+        margin-right: 50px;
+    }
+    .contact-image{
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    form{
+        margin-top: 25px;
+    }
+    .name-email{
+        display: flex;
+    }
+    .form-label{
+        font-size: 14px;
+        line-height: 25px;
+    
+    }
+    .from-message{
+        margin-top: 24px;
+    }
+    #name, #email{
+        width: 100%;
+        height: 40px;
+        border-radius: 16px;
+        padding: 16px;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    
+    }
+    #message{
+        width: 100%;
+        height: 190px;
+        gap: 10px;
+        border-radius: 16px;
+        padding: 16px;
+        resize: none;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    }
+    
+    .message-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 44px;
+        gap: 0;
+        border-radius: 24px;
+        padding:10px 35px;
+        margin-top: 24px;
+        background: #00ADB5;
+        border: none;
+    }
+    .message-button p{
+        font-size: 13px;
+        line-height: 27px;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    
+    }
+    .message-button img{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    .col-css a{
+        display: flex;
+        gap: 5px;
+        height: 47px;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .footer-img{
+        width: 18px;
+        height: 18px;
+        margin:auto 0 ;
+    
+    }
+    .footer-txt{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 7px 0;
+    }
+    
+    /* ICON */
+    .row-social-media{
+        display: flex;
+        gap: 24px;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .col-social-media{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        background: #393E46;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;    
+    }
+    .Terms-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color:#EEEEEEBF;
+        opacity: 75%;
+        text-align: end;
+        margin-top: 20px;
+    }
+  }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section-1{
+        height: 600px;
+    }
+    /* NAVBAR STYLE */
+    .navbar-brand-css{
+        font-size: 25px;
+    }
+    .nav-item-css{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #EEEEEE;
+        margin: 0 2px;
+    }
+    
+    .heading-1{
+        font-size: 52px;
+        line-height: 52px;
+        margin-top: -50px;
+    }
+    .heading-1-1{
+        font-size: 52px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .s-1-img{
+        width: 250px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+    .mt-117{
+        margin-top: 117px;
+    }
+    .hr-tag{
+        top: 100px;
+    }
+    /* BUTTON GROUP */
+    .button-group{
+        margin-top: 30px;
+    }
+    .button-txt{
+        font-size: 14px;
+        color: #EEEEEE;
+        background: transparent;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    }
+    .button-icon{
+        width: 20px; 
+        height: 20px; 
+        margin: 1px 0 1px 7px;
+    }
+    .button-1{
+        width: 120px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        background: #00ADB5;
+    }
+    .button-2{
+        
+        width: 190px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding: 10px 32px;
+        margin-left: 12px;
+        background: #393E46BF;
+        backdrop-filter: blur(4px)
+    
+    }
+    .button-2-in{
+        display: flex;
+    }
+    
+    /* ARROW DOWN */
+    .arrow-down{
+        width: 60px;
+        height: 60px;
+        background: #393E46BF;
+        backdrop-filter: blur(8px);
+        border: none;
+        margin-top: 120px;
+        margin-right: 40px;
+        z-index: 1;
+    }
+    
+    /* ABOUT SECTION */
+    .about{
+        margin-top: 0;
+    }
+    .about-head{
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 50px;
+
+    }
+    .about-head-span{
+        font-size: 50px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 27px;
+        color: #EEEEEEBF;
+        margin: 0;
+    }
+    .about-image{
+        position: relative;
+        margin-top: 30px;
+    }
+    .doodle-image{
+        width: 100%;
+        height: auto;
+    }
+    .foreground-image{
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        left: 25%;
+    }
+    .hr-tag-1{
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        top: 1200px;
+        border-width: 1px;
+        border: 1px solid #EEEEEE1A;
+        margin: 0;
+    }
+    /* WORK SECTION */
+    .section-work{
+        height: 600px;
+        background-image: url('/assets/image/doodle\ items.png');
+        background-size: 100%;
+    }
+    .work-header{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 60px;
+    }
+    .work-item-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(4px);
+        margin: 10px 0;
+    
+    }
+    .work-item{
+        width: auto;
+        height: 140px;
+        padding: 20px;
+    }
+    .tab-item{
+        width: max-content;
+        height: 25px;
+        gap: 10px;
+        border-radius: 24px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        background: #393E4680;
+        backdrop-filter: blur(8px);
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tav-link{
+        font-size: 12px;
+        line-height: 10px;
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+    .tab-active{
+        background: #00ADB5 !important;
+        margin-left: 0;
+    }
+    
+    /* CONTACT PAGE SECTION */
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-head{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 25px;
+    
+    }
+    .contact-image-div{
+        display: flex;
+        justify-content: end;
+        margin-top: -60px;
+        margin-right: 100px;
+    }
+    .contact-image{
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    form{
+        margin-top: 25px;
+    }
+    .name-email{
+        display: flex;
+    }
+    .form-label{
+        font-size: 17px;
+        line-height: 25px;
+    
+    }
+    .from-message{
+        margin-top: 24px;
+    }
+    #name, #email{
+        width: 95%;
+        height: 40px;
+        border-radius: 16px;
+        padding: 16px;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    
+    }
+    #message{
+        width: 100%;
+        height: 190px;
+        gap: 10px;
+        border-radius: 16px;
+        padding: 16px;
+        resize: none;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    }
+    
+    .message-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        height: 47px;
+        gap: 0;
+        border-radius: 24px;
+        padding:10px 35px;
+        margin-top: 24px;
+        background: #00ADB5;
+        border: none;
+    }
+    .message-button p{
+        font-size: 15px;
+        line-height: 27px;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    
+    }
+    .message-button img{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    .col-css a{
+        display: flex;
+        gap: 5px;
+        height: 47px;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .footer-img{
+        width: 18px;
+        height: 18px;
+        margin:auto 0 ;
+    
+    }
+    .footer-txt{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 7px 0;
+    }
+    
+    /* ICON */
+    .row-social-media{
+        display: flex;
+        gap: 24px;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .col-social-media{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        background: #393E46;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;    
+    }
+    .Terms-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color:#EEEEEEBF;
+        opacity: 75%;
+        text-align: end;
+        margin-top: 20px;
+    }
+  }
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .section-1{
+        height: 600px;
+    }
+    /* NAVBAR STYLE */
+    .navbar-brand-css{
+        font-size: 25px;
+    }
+    .nav-item-css{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #EEEEEE;
+        margin: 0 2px;
+    }
+    
+    .heading-1{
+        font-size: 52px;
+        line-height: 52px;
+        margin-top: -50px;
+    }
+    .heading-1-1{
+        font-size: 52px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .s-1-img{
+        width: 250px;
+        height: auto;
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+    .mt-117{
+        margin-top: 117px;
+    }
+    .hr-tag{
+        top: 100px;
+    }
+    /* BUTTON GROUP */
+    .button-group{
+        margin-top: 30px;
+    }
+    .button-txt{
+        font-size: 14px;
+        color: #EEEEEE;
+        background: transparent;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    }
+    .button-icon{
+        width: 20px; 
+        height: 20px; 
+        margin: 1px 0 1px 7px;
+    }
+    .button-1{
+        width: 120px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        background: #00ADB5;
+    }
+    .button-2{
+        
+        width: 190px;
+        height: 47px;
+        border: none;
+        border-radius: 24px;
+        padding: 10px 32px;
+        margin-left: 12px;
+        background: #393E46BF;
+        backdrop-filter: blur(4px)
+    
+    }
+    .button-2-in{
+        display: flex;
+    }
+    
+    /* ARROW DOWN */
+    .arrow-down{
+        width: 60px;
+        height: 60px;
+        background: #393E46BF;
+        backdrop-filter: blur(8px);
+        border: none;
+        margin-top: 120px;
+        margin-right: 40px;
+        z-index: 1;
+    }
+    
+    /* ABOUT SECTION */
+    .about{
+        margin-top: 0;
+    }
+    .about-head{
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 50px;
+
+    }
+    .about-head-span{
+        font-size: 50px;
+        line-height: 60px;
+        color: #00ADB5;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 27px;
+        color: #EEEEEEBF;
+        margin: 0;
+    }
+    .about-image{
+        position: relative;
+        margin-top: 30px;
+    }
+    .doodle-image{
+        width: 100%;
+        height: auto;
+    }
+    .foreground-image{
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        left: 25%;
+    }
+    .hr-tag-1{
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        top: 1200px;
+        border-width: 1px;
+        border: 1px solid #EEEEEE1A;
+        margin: 0;
+    }
+    /* WORK SECTION */
+    .section-work{
+        height: 600px;
+        background-image: url('/assets/image/doodle\ items.png');
+        background-size: 100%;
+    }
+    .work-header{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 60px;
+    }
+    .work-item-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        background: #393E4680;
+        backdrop-filter: blur(4px);
+        margin: 10px 0;
+    
+    }
+    .work-item{
+        width: auto;
+        height: 140px;
+        padding: 20px;
+    }
+    .tab-item{
+        width: max-content;
+        height: 25px;
+        gap: 10px;
+        border-radius: 24px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        background: #393E4680;
+        backdrop-filter: blur(8px);
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .tav-link{
+        font-size: 12px;
+        line-height: 10px;
+        color: #EEEEEE;
+        text-decoration: none;
+    }
+    .tab-active{
+        background: #00ADB5 !important;
+        margin-left: 0;
+    }
+    
+    /* CONTACT PAGE SECTION */
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-head{
+        font-size: 40px;
+        line-height: 56px;
+        color: #EEEEEE;
+        margin-top: 25px;
+    
+    }
+    .contact-image-div{
+        display: flex;
+        justify-content: end;
+        margin-top: -60px;
+        margin-right: 100px;
+    }
+    .contact-image{
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    form{
+        margin-top: 25px;
+    }
+    .name-email{
+        display: flex;
+    }
+    .form-label{
+        font-size: 17px;
+        line-height: 25px;
+    
+    }
+    .from-message{
+        margin-top: 24px;
+    }
+    #name, #email{
+        width: 95%;
+        height: 40px;
+        border-radius: 16px;
+        padding: 16px;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    
+    }
+    #message{
+        width: 95%;
+        height: 190px;
+        gap: 10px;
+        border-radius: 16px;
+        padding: 16px;
+        resize: none;
+        background: #393E4680;
+        border: none;
+        font-size: 15px;
+        line-height: 27px;
+        color: #EEEEEE80;
+    }
+    
+    .message-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        height: 47px;
+        gap: 0;
+        border-radius: 24px;
+        padding:10px 35px;
+        margin-top: 24px;
+        background: #00ADB5;
+        border: none;
+    }
+    .message-button p{
+        font-size: 15px;
+        line-height: 27px;
+        text-shadow: 0px 4px 4px #00000080;
+        margin: 0 auto;
+    
+    }
+    .message-button img{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    .col-css a{
+        display: flex;
+        gap: 5px;
+        height: 47px;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .footer-img{
+        width: 18px;
+        height: 18px;
+        margin:auto 0 ;
+    
+    }
+    .footer-txt{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 7px 0;
+    }
+    
+    /* ICON */
+    .row-social-media{
+        display: flex;
+        gap: 24px;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .col-social-media{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        background: #393E46;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;    
+    }
+    .Terms-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color:#EEEEEEBF;
+        opacity: 75%;
+        text-align: end;
+        margin-top: 20px;
+    }
+  }

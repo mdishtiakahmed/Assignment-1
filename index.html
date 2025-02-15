@@ -11,7 +11,7 @@
     <!-- FIRST PAGE SECTION -->
      <section class="container section-1" id="home">
         <!-- NAVBAR SECTION -->
-        <nav class="navbar navbar-expand-lg nav-body navbar-css">
+        <nav class="navbar navbar-expand-sm nav-body navbar-css">
               <a class="navbar-brand" href="#"><p class="navbar-brand-css">SaulDesign</p></a>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,13 +19,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link nav-item-css" aria-current="page" href="#home"><p class="nav-item-css">Home</p></a>
+                    <a class="nav-link nav-item-css text-end" aria-current="page" href="#home"><p class="nav-item-css">Home</p></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#aboutMe"><p class="nav-item-css">About Me</p></a>
+                    <a class="nav-link nav-item-css text-end" href="#aboutMe"><p class="nav-item-css">About Me</p></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-item-css" href="#contact"><p class="nav-item-css">Contact</p></a>
+                    <a class="nav-link nav-item-css text-end" href="#contact"><p class="nav-item-css">Contact</p></a>
                   </li>
                 </ul>
               </div>
@@ -33,7 +33,7 @@
         <hr class="hr-tag">
         <!-- CONTENT SECTION -->
         <div class="row mt-117">
-            <div class="col-7">
+            <div class="col-12 col-sm-7 order-sm-1 order-2">
                 <h1 class="heading-1">CREATIVE UI <span class="heading-1-1">DESIGNER</span></h1>
                 <div class="button-group">
                   <button class="button-1"><p class="button-txt">Hire Me</p></button>
@@ -49,7 +49,7 @@
                   <button class="arrow-down"><i class="bi bi-arrow-down"></i></button>
                  </a>
             </div>
-            <div class="col-5">
+            <div class="col-sm-5 col-12 order-sm-2 order-1">
                 <img class="s-1-img" src="./assets/image/Group 2345.png" alt="">
             </div>
         </div>
@@ -58,11 +58,11 @@
     <!-- ABOUT PAGE SECTION -->
     <section class="container section-1" id="aboutMe">
       <div class="row">
-        <div class="col-5 about">
+        <div class="col-sm-5 col-12 order-sm-1 order-2 about">
           <h1 class="about-head">About <span class="about-head-span">me</span></h1>
           <p  class="about-text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Nunc vulputate libero et<br> velit interdum, ac aliquet odio mattis. Class<br> aptent taciti sociosqu ad litora torquent<br> per conubia nostra, per inceptos<br> himenaeos. Curabitur tempus urna at<br> turpis condimentum lobortis.... <b>Read more</b></p>
         </div>
-        <div class="col-7">
+        <div class="col-sm-7 col-12 order-sm-2 order-1">
           <div class="about-image">
             <img class="doodle-image" src="./assets/image/doodle items.png" alt="">
             <img class="foreground-image"src="./assets/image/Group 62.png" alt="">
@@ -99,21 +99,21 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-4">
+          <div class="col-sm-4 col-12">
             <div class="work-item-bg">
               <a href="#">
                 <img class="work-item" src="./assets/image/Course Website Landing Page Thumbnail 1.png" alt="">
               </a>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-4 col-12">
             <div class="work-item-bg">
               <a href="#">              
                 <img class="work-item" src="./assets/image/Group 33.png" alt="">
               </a>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-4 col-12">
             <div class="work-item-bg">
               <a href="#">
                 <img class="work-item" src="./assets/image/Group 1.png" alt="">
@@ -125,33 +125,35 @@
     </section>
 
     <!-- CONTACT PAGE SECTION -->
-    <section class="container section-1" id="contact">
-      <div class="row g-5">
-        <div class="col-6">
-          <h1 class="contact-head">Got a project in <span class="contact-head-span">mind?</span></h1>
-          <div class="contact-image-div">
-            <img class="contact-image" src="./assets/image/Group 2372.png" alt="">
-          </div>
-        </div>
-        <div class="col-6">
-          <form action="#" class="">
-            <div class="row g-0">
-              <div class="col-6">
-                <label for="name" class="form-label">Your name</label><br>
-                <input type="text" id="name" name="name" placeholder="Name">
-              </div>
-              <div class="col-6">
-                <label for="email" class="form-label">Your email</label><br>
-                <input type="text" id="email" name="email" placeholder="Email">
-              </div>
+    <section class="section-1" id="contact">
+      <div class="container">
+        <div class="row gx-lg-5">
+          <div class="col-sm-6 col-12">
+            <h1 class="contact-head">Got a project in <span class="contact-head-span">mind?</span></h1>
+            <div class="contact-image-div">
+              <img class="contact-image" src="./assets/image/Group 2372.png" alt="">
             </div>
-            <label for="message" class="form-label from-message">Your Message</label><br>
-            <textarea name="message" id="message" placeholder="Message"></textarea>
-            <button class="message-button">
-              <p>Send Message</p>
-              <img src="./assets/image/send.png" alt="">
-            </button>
-          </form>
+          </div>
+          <div class="col-sm-6 col-12">
+            <form action="#" class="">
+              <div class="row g-0">
+                <div class="col-12 col-md-6">
+                  <label for="name" class="form-label">Your name</label><br>
+                  <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">Your email</label><br>
+                  <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <label for="message" class="form-label from-message">Your Message</label><br>
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+              <button class="message-button">
+                <p>Send Message</p>
+                <img src="./assets/image/send.png" alt="">
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
@@ -186,12 +188,12 @@
             <img class="social-icon" src="./assets/image/facebook.png" alt="">
           </div>
         </a>
-        <a href="instragram.com">
+        <a href="instragram.com"  target="_blank">
           <div class="col-social-media">
             <img class="social-icon" src="./assets/image/instagram.png" alt="">
           </div>
         </a>
-        <a href="x.com">
+        <a href="x.com" target="_blank">
           <div class="col-social-media">
             <img class="social-icon" src="./assets/image/twitter (2).png" alt="">
           </div>
