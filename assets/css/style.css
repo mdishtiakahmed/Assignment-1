@@ -436,17 +436,17 @@ form{
     }
     
     .heading-1{
-        font-size: 52px;
-        line-height: 52px;
+        font-size: 40px;
+        line-height: 40px;
         margin-top: -50px;
     }
     .heading-1-1{
-        font-size: 52px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 40px;
         color: #00ADB5;
     }
     .s-1-img{
-        width: 250px;
+        width: 220px;
         height: auto;
         margin-left: 25px;
         margin-top: -20px;
@@ -728,7 +728,7 @@ form{
     .footer-txt{
         font-family: Poppins;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 27px;
         margin: 7px 0;
     }
@@ -742,16 +742,16 @@ form{
     }
     .col-social-media{
         display: flex;
-        width: 48px;
-        height: 48px;
+        width: 30px;
+        height: 30px;
         border-radius: 50px;
         background: #393E46;
         justify-content: center;
         align-items: center;
     }
     .social-icon{
-        width: 24px;
-        height: 24px;    
+        width: 15px;
+        height: 15px;    
     }
     .Terms-text{
         font-family: Poppins;
@@ -1090,16 +1090,16 @@ form{
     }
     .col-social-media{
         display: flex;
-        width: 48px;
-        height: 48px;
+        width: 40px;
+        height: 40px;
         border-radius: 50px;
         background: #393E46;
         justify-content: center;
         align-items: center;
     }
     .social-icon{
-        width: 24px;
-        height: 24px;    
+        width: 20px;
+        height: 20px;    
     }
     .Terms-text{
         font-family: Poppins;
